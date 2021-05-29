@@ -8,7 +8,7 @@ pub fn and(a:u8, b:u8) -> u8 {
    }
 }
 
-///Implemenets a boolean `xor` gate taking as two buts and retruns a bit as output
+///Implemenets a boolean `xor` gate taking as two buts and retruns a bit as output. Use for XOR operation demo.
 pub fn xor(a:u8, b:u8) -> u8 {
     match (a,b) {
     (1,0) => 1,
